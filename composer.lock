@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "89bf1238791fb7216381aecdd1b10519",
+    "content-hash": "0b4a013f333a39b1ef776a2e50469cf3",
     "packages": [
         {
             "name": "dompdf/dompdf",
@@ -718,6 +718,46 @@
                 }
             ],
             "time": "2022-11-03T14:55:06+00:00"
+        },
+        {
+            "name": "twbs/bootstrap-icons",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/icons.git",
+                "reference": "81a1c8044041374d9b886536b9977a2b2b95c053"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/icons/zipball/81a1c8044041374d9b886536b9977a2b2b95c053",
+                "reference": "81a1c8044041374d9b886536b9977a2b2b95c053",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "Official open source SVG icon library for Bootstrap",
+            "homepage": "https://icons.getbootstrap.com/",
+            "keywords": [
+                "bootstrap",
+                "icon font",
+                "icons",
+                "svg"
+            ],
+            "support": {
+                "issues": "https://github.com/twbs/icons/issues",
+                "source": "https://github.com/twbs/icons/tree/main"
+            },
+            "time": "2022-12-06T06:23:48+00:00"
         },
         {
             "name": "twig/twig",
@@ -2438,6 +2478,7 @@
         "monolog/monolog": 20,
         "twig/twig": 20,
         "mustache/mustache": 20,
+        "twbs/bootstrap-icons": 20,
         "phpunit/phpunit": 20
     },
     "prefer-stable": false,
